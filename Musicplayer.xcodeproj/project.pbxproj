@@ -15,6 +15,9 @@
 		EC33AAD1213FFD4300401753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC33AACF213FFD4300401753 /* LaunchScreen.storyboard */; };
 		EC33AADC213FFD4400401753 /* MusicplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33AADB213FFD4400401753 /* MusicplayerTests.swift */; };
 		EC33AAE7213FFD4400401753 /* MusicplayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC33AAE6213FFD4400401753 /* MusicplayerUITests.swift */; };
+		EC33AAF6213FFDD800401753 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC33AAF4213FFDD800401753 /* logo.png */; };
+		EC33AAF7213FFDD800401753 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = EC33AAF5213FFDD800401753 /* music.png */; };
+		EC33AAF9213FFDE700401753 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC33AAF8213FFDE700401753 /* sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EC33AAE2213FFD4400401753 /* MusicplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicplayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC33AAE6213FFD4400401753 /* MusicplayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicplayerUITests.swift; sourceTree = "<group>"; };
 		EC33AAE8213FFD4400401753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC33AAF4213FFDD800401753 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EC33AAF5213FFDD800401753 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		EC33AAF8213FFDE700401753 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				EC33AAC3213FFD4200401753 /* AppDelegate.swift */,
+				EC33AAF4213FFDD800401753 /* logo.png */,
+				EC33AAF8213FFDE700401753 /* sample.mp3 */,
+				EC33AAF5213FFDD800401753 /* music.png */,
 				EC33AAC5213FFD4200401753 /* ViewController.swift */,
 				EC33AAC7213FFD4200401753 /* Main.storyboard */,
 				EC33AACD213FFD4300401753 /* Assets.xcassets */,
@@ -232,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC33AAF7213FFDD800401753 /* music.png in Resources */,
+				EC33AAF9213FFDE700401753 /* sample.mp3 in Resources */,
+				EC33AAF6213FFDD800401753 /* logo.png in Resources */,
 				EC33AAD1213FFD4300401753 /* LaunchScreen.storyboard in Resources */,
 				EC33AACE213FFD4300401753 /* Assets.xcassets in Resources */,
 				EC33AAC9213FFD4200401753 /* Main.storyboard in Resources */,
